@@ -6,16 +6,20 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.5.3
 
 * System dependencies
 
 * Configuration
-
+The app.rb requires the controller.rb situation in the app/ directory
+The controller.rb runs system commands that were studied in the the-hacking-project course
 * Database creation
 
 * Database initialization
 
 * How to run the test suite
+You can run some operation tests by yourself in the Ruby file with the terminal or you can run the app.rb
+The seed file creates new data in the database according to the schema of the database predefined in the database file
 
 * Services (job queues, cache servers, search engines, etc.)
 
